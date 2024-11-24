@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woody's Cloud Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.2em;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 0.2em;
+            border-bottom: 2px solid #333;
+        }
+        .section {
+            margin-bottom: 1.5em;
+        }
+        .contact, .languages {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .contact div, .languages div {
+            flex: 1;
+        }
+        /* Updated skills section for two-column layout */
+        .skills {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+    </style>
+	
+</head>
+<body>
+    <p>Visitor Count: <span id="visitor-count">Loading...</span></p>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+
+    <h1>Cheuk Wing Li (Woody)</h1>
+    <div class="contact">
+        <div><strong>Phone:</strong> +61 475 356 065</div>
+        <div><strong>Email:</strong> cwli0802@gmail.com</div>
+        <div><strong>Location:</strong> Sydney, NSW</div>
+    </div>
+
+    <div class="section">
+        <h2>Profile</h2>
+        <p>With three years of experience in the IT industry, I am actively pursuing opportunities to elevate my career. My robust technical proficiency and awareness in IT have fueled my enthusiasm for further cultivating my professional skills and knowledge. I am dedicated to continuous professional development and staying abreast of industry advancements, which will augment my professional capabilities.</p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <p><strong>Macquarie University </strong><br>
+        Bachelor of IT, Game Design & Development (2020)</p>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>MS Active Directory</div>
+			<div>Teradata & batch process</div>
+            <div>MS Office 365 Suite</div>
+			<div>AWS (S3, EC2)</div>
+            <div>MS Azure (WVD, Virtual Machines)</div>
+            <div>Apache Airflow</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Work Experience</h2>
+
+        <h3>Operation Analyst</h3>
+        <p><em>Qantas Loyalty Datawarehouse, 2022 October – 2024 Jan</em></p>
+        <ul>
+            <li>Supporting BAU operation environment including Apache Airflow, Teradata SQL and ad-hoc batch processes </li>
+            <li>Automation of day-to-day tasks using Python script, PowerShell</li>
+            <li>AWS S3 Bucket item management for daily data flow processes</li>
+            <li>Developing Teradata and Python script, analysis and code enhancements</li>
+            <li>Implementing end-to-end ETL solutions using SQL, Python on GitHub and Airflow for batch processes</li>
+            <li>Processes to manage incidents with JIRA ticket </li>
+            <li>Documenting standard operating procedures on Confluence</li>
+        </ul>
+
+        <h3>IT Support Administrator</h3>
+        <p><em>Stewartbrown, 2021 June – 2022 Sept</em></p>
+        <ul>
+            <li>Provide problem resolution, troubleshooting, system upgrades and technical support for internal end user</li>
+			<li>On-site support including conference room setup, printer setup and configuring the office network & physical on-prem servers</li>
+            <li>Manage and maintain internal MS office 365 suite including SharePoint, Outlook, Teams & Exchange </li>
+            <li>Administer Active Directory, Group Policy deployment, manage user accounts and access permissions across Azure Active Directory </li>
+			<li>Perform system backups, disaster recovery and implement IT security policies over Azure</li>
+            <li>Monitor and maintain performance on Azure Virtual Desktop (AVD)</li>
+            <li>Maintain the integrity of the internal SQL database</li>
+            <li>Configure, manage and troubleshoot Remote Desktop Services</li>
+            <li>Windows PowerShell/Python scripts & Excel VBA macros development</li>
+            <li>Maintain and develop company website using JavaScript, HTML</li>
+        </ul>
+
+        <h3>Part-Time Retail Sales Assistant</h3>
+        <p><em>Pharmacy 4 Less Hurstville, 2017 June – 2021 May</em></p>
+    </div>
+
+    <div class="section">
+        <h2>Programming Languages</h2>
+        <div class="skills">
+            <div>SQL</div>
+            <div>Python</div>
+            <div>JavaScript</div>
+            <div>Java</div>
+            <div>Excel VBA</div>
+            <div>HTML</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Languages</h2>
+        <div class="languages">
+            <div><strong>English:</strong> Professional working proficiency</div>
+            <div><strong>Cantonese:</strong> Native</div>
+            <div><strong>Mandarin:</strong> Native</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>References</h2>
+        <p>Available upon request.</p>
+    </div>
+
+</body>
+</html>
